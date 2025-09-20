@@ -196,8 +196,8 @@ export default function Portfolio() {
             <Image
               src="https://yg7xmhez0r.ufs.sh/f/2wsbR7eha6fqKLlANC994Iiypzd65vUEunVX7c3e2slkfGT0"
               alt="Iftekhar Ahmad"
-              width={96}
-              height={96}
+              width={200}
+              height={200}
               className="w-24 h-24 md:w-30 md:h-30 rounded-full border"
             />
             <div>

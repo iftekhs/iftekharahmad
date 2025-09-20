@@ -470,9 +470,10 @@ export default function Portfolio() {
                 Nov 2024 - Present
               </p>
               <p className="text-muted-foreground mb-3">
-                Lead development of microservices architecture serving 1M+
-                users. Mentored junior developers and implemented CI/CD
-                pipelines that reduced deployment time by 60%.
+                Drove technical strategy and scalable architecture at
+                Lancepilot, leading a 7+ developer team, setting coding
+                standards, and ensuring resilient, high-performance systems
+                through optimized workflows and mentorship.
               </p>
               <div className="flex flex-wrap gap-2">
                 <span className="text-xs bg-muted px-2 py-1 rounded">
@@ -553,55 +554,31 @@ export default function Portfolio() {
         </section>
 
         <section id="achievements" className="mb-16">
-          <h2 className="text-2xl font-bold mb-6">Achievements</h2>
+          <h2 className="text-2xl font-bold mb-6">Top Accomplishments</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="border-l-2 border-border pl-6">
-              <h3 className="text-lg font-semibold mb-1">
-                AWS Certified Solutions Architect
-              </h3>
+              <h3 className="text-lg font-semibold mb-1">Lancepilot</h3>
               <p className="text-sm text-muted-foreground mb-2">
-                Amazon Web Services • 2023
+                {' '}
+                Product Hunt • 2024
               </p>
               <p className="text-muted-foreground">
-                Demonstrated expertise in designing distributed systems and
-                applications on AWS platform.
+                Architected and built a multi-tenant platform with Laravel,
+                React and AWS, winning Product Hunt’s Product of the Day and
+                Week in 2024 and also earning industry recognition for
+                innovation.
               </p>
             </div>
 
             <div className="border-l-2 border-border pl-6">
-              <h3 className="text-lg font-semibold mb-1">
-                Open Source Contributor
-              </h3>
-              <p className="text-sm text-muted-foreground mb-2">
-                Various Projects • 2022-Present
-              </p>
+              <h3 className="text-lg font-semibold mb-1">Subsavely</h3>
+              <p className="text-sm text-muted-foreground mb-2">2024</p>
               <p className="text-muted-foreground">
-                Active contributor to popular open source projects with 50+
-                merged pull requests and 1000+ GitHub stars across repositories.
-              </p>
-            </div>
-
-            <div className="border-l-2 border-border pl-6">
-              <h3 className="text-lg font-semibold mb-1">
-                Tech Conference Speaker
-              </h3>
-              <p className="text-sm text-muted-foreground mb-2">
-                ReactConf 2023 • DevFest 2022
-              </p>
-              <p className="text-muted-foreground">
-                Delivered technical talks on modern React patterns and
-                performance optimization to audiences of 500+ developers.
-              </p>
-            </div>
-
-            <div className="border-l-2 border-border pl-6">
-              <h3 className="text-lg font-semibold mb-1">Hackathon Winner</h3>
-              <p className="text-sm text-muted-foreground mb-2">
-                TechCrunch Disrupt • 2022
-              </p>
-              <p className="text-muted-foreground">
-                First place winner for developing an AI-powered code review tool
-                that improved development workflow efficiency by 40%.
+                Architected and led a team of 7 software-engineers to
+                successfully design and develop a high-performance, scalable
+                subscription management application, making it a breeze to
+                manage billing, notifications and subscription lifecycle
+                tracking.
               </p>
             </div>
           </div>
@@ -615,16 +592,22 @@ export default function Portfolio() {
               <p className="text-sm text-muted-foreground mb-2">
                 Phitron • 2024
               </p>
-              {/* <p className="text-muted-foreground">
-                Demonstrates proficiency in building scalable applications using Google Cloud technologies and best
-                practices.
-              </p> */}
+              <p className="text-muted-foreground">
+                Completed a rigorous course mastering core computer science
+                concepts, data-structure algorithms and problem-solving
+                techniques.
+              </p>
             </div>
 
             <div className="border-l-2 border-border pl-6">
               <h3 className="text-lg font-semibold mb-1">AWS Fundamentals</h3>
               <p className="text-sm text-muted-foreground mb-2">
                 Laracasts • 2023
+              </p>
+              <p className="text-muted-foreground">
+                Gained hands-on knowledge of core AWS services, cloud
+                architecture, and best practices for building secure and
+                scalable applications.
               </p>
             </div>
 
@@ -633,6 +616,10 @@ export default function Portfolio() {
                 Responsive Real-World Websites with HTML & CSS
               </h3>
               <p className="text-sm text-muted-foreground mb-2">Udemy • 2021</p>
+              <p className="text-muted-foreground">
+                Gained skills in creating mobile-friendly, responsive websites
+                modern HTML and CSS best practices.
+              </p>
             </div>
 
             <div className="border-l-2 border-border pl-6">
@@ -641,6 +628,11 @@ export default function Portfolio() {
               </h3>
               <p className="text-sm text-muted-foreground mb-2">
                 Programming Hero 2022 • Udemy 2021
+              </p>
+              <p className="text-muted-foreground">
+                Developed expertise in front-end, back-end technologies, UI
+                design, server-side logic, building scalable web applications
+                through hands-on projects.
               </p>
             </div>
           </div>

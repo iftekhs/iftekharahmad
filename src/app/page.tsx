@@ -210,11 +210,12 @@ export default function Portfolio() {
           <p className="text-lg leading-relaxed">
             👋 Hi, I build scalable web applications and love to shape complex
             challenges into simple solutions with clean and efficient code. I
-            care about building products that don&apos;t just use, but talk about
+            care about building products that don&apos;t just use, but talk
+            about
           </p>
           <blockquote className="mt-4 text-muted-foreground italic border-l-2 border-border pl-4">
-            &quot;Code is like humor. When you have to explain it, it&apos;s bad. I
-            believe in writing code that speaks for itself and building
+            &quot;Code is like humor. When you have to explain it, it&apos;s
+            bad. I believe in writing code that speaks for itself and building
             relationships that last.&quot;
           </blockquote>
           <div className="mt-6 space-x-4">
@@ -247,15 +248,15 @@ export default function Portfolio() {
           <h2 className="text-2xl font-bold mb-6">About Me</h2>
           <div className="space-y-4 text-muted-foreground leading-relaxed">
             <p>
-              I&apos;m a software engineer with 5+ years of experience building web
-              applications using modern technologies. I specialize in full-stack
-              development with a focus on React, Node.js, and cloud
+              I&apos;m a software engineer with 5+ years of experience building
+              web applications using modern technologies. I specialize in
+              full-stack development with a focus on React, Node.js, and cloud
               technologies.
             </p>
             <p>
-              When I&apos;m not coding, I enjoy contributing to open source projects,
-              learning new technologies, and sharing knowledge with the
-              developer community through blog posts and technical talks.
+              When I&apos;m not coding, I enjoy contributing to open source
+              projects, learning new technologies, and sharing knowledge with
+              the developer community through blog posts and technical talks.
             </p>
             <div className="mt-6">
               <h3 className="text-lg font-semibold text-foreground mb-3">
@@ -649,9 +650,10 @@ export default function Portfolio() {
           <h2 className="text-2xl font-bold mb-6">Get In Touch</h2>
           <div className="border-l-2 border-border pl-6">
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              I&apos;m always interested in new opportunities and collaborations.
-              Whether you have a project in mind, want to discuss technology, or
-              just want to connect, feel free to reach out!
+              I&apos;m always interested in new opportunities and
+              collaborations. Whether you have a project in mind, want to
+              discuss technology, or just want to connect, feel free to reach
+              out!
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
@@ -701,7 +703,7 @@ export default function Portfolio() {
                   </div>
                   <div>
                     <p className="font-medium">Location</p>
-                    <p className="text-muted-foreground">San Francisco, CA</p>
+                    <p className="text-muted-foreground">Dhaka, Bangladesh</p>
                   </div>
                 </div>
               </div>
@@ -758,9 +760,9 @@ export default function Portfolio() {
             <div className="bg-muted/30 rounded-lg p-6">
               <h3 className="font-semibold mb-2">Currently Available</h3>
               <p className="text-muted-foreground">
-                I&apos;m open to full-time opportunities, freelance projects, and
-                consulting work. Let&apos;s discuss how we can work together to bring
-                your ideas to life.
+                I&apos;m open to full-time opportunities, freelance projects,
+                and consulting work. Let&apos;s discuss how we can work together
+                to bring your ideas to life.
               </p>
             </div>
           </div>

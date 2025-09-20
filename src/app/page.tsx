@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 
 export default function Portfolio() {
   const [activeSection, setActiveSection] = useState('hero');
@@ -192,9 +193,11 @@ export default function Portfolio() {
       <main className="max-w-4xl mx-auto px-6 py-8 pt-20 xl:pt-8">
         <section id="hero" className="mb-16">
           <div className="flex items-center gap-6 mb-6">
-            <img
+            <Image
               src="https://yg7xmhez0r.ufs.sh/f/2wsbR7eha6fqKLlANC994Iiypzd65vUEunVX7c3e2slkfGT0"
               alt="Iftekhar Ahmad"
+              width={96}
+              height={96}
               className="w-24 h-24 md:w-30 md:h-30 rounded-full border"
             />
             <div>
@@ -207,12 +210,12 @@ export default function Portfolio() {
           <p className="text-lg leading-relaxed">
             👋 Hi, I build scalable web applications and love to shape complex
             challenges into simple solutions with clean and efficient code. I
-            care about building products that don't just use, but talk about
+            care about building products that don&apos;t just use, but talk about
           </p>
           <blockquote className="mt-4 text-muted-foreground italic border-l-2 border-border pl-4">
-            "Code is like humor. When you have to explain it, it's bad. I
+            &quot;Code is like humor. When you have to explain it, it&apos;s bad. I
             believe in writing code that speaks for itself and building
-            relationships that last."
+            relationships that last.&quot;
           </blockquote>
           <div className="mt-6 space-x-4">
             <a
@@ -244,13 +247,13 @@ export default function Portfolio() {
           <h2 className="text-2xl font-bold mb-6">About Me</h2>
           <div className="space-y-4 text-muted-foreground leading-relaxed">
             <p>
-              I'm a software engineer with 5+ years of experience building web
+              I&apos;m a software engineer with 5+ years of experience building web
               applications using modern technologies. I specialize in full-stack
               development with a focus on React, Node.js, and cloud
               technologies.
             </p>
             <p>
-              When I'm not coding, I enjoy contributing to open source projects,
+              When I&apos;m not coding, I enjoy contributing to open source projects,
               learning new technologies, and sharing knowledge with the
               developer community through blog posts and technical talks.
             </p>
@@ -275,15 +278,17 @@ export default function Portfolio() {
           <div className="space-y-8">
             <div className="border-l-2 border-border pl-6">
               <div className="flex flex-col  gap-3 mb-2">
-                <img
+                <Image
                   src="https://lancepilot.com/images/logo-icon.svg"
                   alt="Lancepilot logo"
+                  width={64}
+                  height={64}
                   className="w-16 h-16 rounded"
                 />
                 <h3 className="text-xl font-semibold">Lancepilot</h3>
               </div>
               <p className="text-muted-foreground mb-3">
-                World's first WhatsApp outreaching tool- designed to help
+                World&apos;s first WhatsApp outreaching tool- designed to help
                 businesses connect with leads, manage campaigns and scale
                 converstaions. Core features include Multi Tenancy, White
                 Labeling, API and webhook, Bulk Messaging.
@@ -375,9 +380,11 @@ export default function Portfolio() {
 
             <div className="border-l-2 border-border pl-6">
               <div className="flex flex-col  gap-3 mb-2">
-                <img
+                <Image
                   src="https://ph-files.imgix.net/2944ffcf-9c53-40cc-80a7-80f4465b978b.jpeg?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=64&h=64&fit=crop&frame=1&dpr=1"
                   alt="Subsavely logo"
+                  width={64}
+                  height={64}
                   className="w-16 h-16 rounded"
                 />
                 <h3 className="text-xl font-semibold">Subsavely</h3>
@@ -432,7 +439,7 @@ export default function Portfolio() {
                 <h3 className="text-xl font-semibold">SKY-8</h3>
               </div>
               <p className="text-muted-foreground mb-3">
-                Bangladesh's first streetwear brand is almost here. From
+                Bangladesh&apos;s first streetwear brand is almost here. From
                 exclusive drops to the hottest resale pieces, Sky‑8 is bringing
                 a new era of streetwear culture to the country. Stay tuned.
               </p>
@@ -642,7 +649,7 @@ export default function Portfolio() {
           <h2 className="text-2xl font-bold mb-6">Get In Touch</h2>
           <div className="border-l-2 border-border pl-6">
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              I'm always interested in new opportunities and collaborations.
+              I&apos;m always interested in new opportunities and collaborations.
               Whether you have a project in mind, want to discuss technology, or
               just want to connect, feel free to reach out!
             </p>
@@ -751,8 +758,8 @@ export default function Portfolio() {
             <div className="bg-muted/30 rounded-lg p-6">
               <h3 className="font-semibold mb-2">Currently Available</h3>
               <p className="text-muted-foreground">
-                I'm open to full-time opportunities, freelance projects, and
-                consulting work. Let's discuss how we can work together to bring
+                I&apos;m open to full-time opportunities, freelance projects, and
+                consulting work. Let&apos;s discuss how we can work together to bring
                 your ideas to life.
               </p>
             </div>

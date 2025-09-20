@@ -1,7 +1,15 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    domains: [
+      'yg7xmhez0r.ufs.sh',
+      'ph-files.imgix.net',
+      'lancepilot.com'
+    ]
+  }
 };
 
 export default nextConfig;
+
+

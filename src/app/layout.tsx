@@ -1,7 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Poppins } from "next/font/google"
-import { Analytics } from "@vercel/analytics/next"
+// import { Analytics } from "@vercel/analytics/next"
 import { Suspense } from "react"
 import "./globals.css"
 
@@ -31,7 +31,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`font-sans ${poppins.variable}`}>
         <Suspense fallback={null}>{children}</Suspense>
-        <Analytics />
+{/*         <Analytics /> */}
       </body>
     </html>
   )

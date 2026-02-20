@@ -210,11 +210,12 @@ export default function Portfolio() {
           <p className="text-lg leading-relaxed">
             👋 Hi, I build scalable web applications and love to shape complex
             challenges into simple solutions with clean and efficient code. I
-            care about building products that don&apos;t just use, but talk about
+            care about building products that don&apos;t just use, but talk
+            about
           </p>
           <blockquote className="mt-4 text-muted-foreground italic border-l-2 border-border pl-4">
-            &quot;Code is like humor. When you have to explain it, it&apos;s bad. I
-            believe in writing code that speaks for itself and building
+            &quot;Code is like humor. When you have to explain it, it&apos;s
+            bad. I believe in writing code that speaks for itself and building
             relationships that last.&quot;
           </blockquote>
           <div className="mt-6 space-x-4">
@@ -247,15 +248,15 @@ export default function Portfolio() {
           <h2 className="text-2xl font-bold mb-6">About Me</h2>
           <div className="space-y-4 text-muted-foreground leading-relaxed">
             <p>
-              I&apos;m a software engineer with 5+ years of experience building web
-              applications using modern technologies. I specialize in full-stack
-              development with a focus on React, Node.js, and cloud
+              I&apos;m a software engineer with 5+ years of experience building
+              web applications using modern technologies. I specialize in
+              full-stack development with a focus on React, Node.js, and cloud
               technologies.
             </p>
             <p>
-              When I&apos;m not coding, I enjoy contributing to open source projects,
-              learning new technologies, and sharing knowledge with the
-              developer community through blog posts and technical talks.
+              When I&apos;m not coding, I enjoy contributing to open source
+              projects, learning new technologies, and sharing knowledge with
+              the developer community through blog posts and technical talks.
             </p>
             <div className="mt-6">
               <h3 className="text-lg font-semibold text-foreground mb-3">
@@ -328,6 +329,56 @@ export default function Portfolio() {
                 </a>
               </div>
             </div>
+            <div className="border-l-2 border-border pl-6">
+              <div className="flex flex-col  gap-3 mb-2">
+                <img
+                  src="https://oumts6nefv.ufs.sh/f/xb97pP2S5jPKDW9RsM8rlbSiN60dOWsXQ3avTkue2yMxzAhI"
+                  alt="ArushiMart logo"
+                  className="w-[120px] h-[30px] rounded"
+                />
+                <h3 className="text-xl font-semibold">ArushiMart</h3>
+              </div>
+              <p className="text-muted-foreground mb-3">
+                Built a full-stack fashion e-commerce platform with product
+                management and order tracking features along with responsive UI.
+                Developed a POS system to support in-store sales, inventory
+                updates and transaction management.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-3">
+                <span className="text-xs bg-muted px-2 py-1 rounded">
+                  Nextjs
+                </span>
+                <span className="text-xs bg-muted px-2 py-1 rounded">
+                  TypeScript
+                </span>
+                <span className="text-xs bg-muted px-2 py-1 rounded">
+                  PostgresSQL
+                </span>
+              </div>
+              <div className="space-x-4">
+                <a
+                  href="https://arushimart.com/"
+                  target="_blank"
+                  className="text-primary text-sm underline inline-flex items-center gap-1"
+                  rel="noreferrer"
+                >
+                  View Application
+                  <svg
+                    className="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 5l7 7-7 7"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
 
             <div className="border-l-2 border-border pl-6">
               <div className="flex flex-col gap-3 mb-2">
@@ -374,89 +425,6 @@ export default function Portfolio() {
                       d="M9 5l7 7-7 7"
                     />
                   </svg>
-                </a>
-              </div>
-            </div>
-
-            <div className="border-l-2 border-border pl-6">
-              <div className="flex flex-col  gap-3 mb-2">
-                <Image
-                  src="https://ph-files.imgix.net/2944ffcf-9c53-40cc-80a7-80f4465b978b.jpeg?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=64&h=64&fit=crop&frame=1&dpr=1"
-                  alt="Subsavely logo"
-                  width={64}
-                  height={64}
-                  className="w-16 h-16 rounded"
-                />
-                <h3 className="text-xl font-semibold">Subsavely</h3>
-              </div>
-              <p className="text-muted-foreground mb-3">
-                Subscription management platform designed to help individuals
-                and businesses track, manage, and optimize recurring payments.
-              </p>
-              <div className="flex flex-wrap gap-2 mb-3">
-                <span className="text-xs bg-muted px-2 py-1 rounded">
-                  Next.js
-                </span>
-                <span className="text-xs bg-muted px-2 py-1 rounded">
-                  Laravel
-                </span>
-                <span className="text-xs bg-muted px-2 py-1 rounded">
-                  MySQL
-                </span>
-              </div>
-              <div className="space-x-4">
-                <a
-                  href="https://www.subsavely.com/"
-                  target="_blank"
-                  className="text-primary text-sm underline inline-flex items-center gap-1"
-                  rel="noreferrer"
-                >
-                  View Application
-                  <svg
-                    className="w-4 h-4"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M9 5l7 7-7 7"
-                    />
-                  </svg>
-                </a>
-              </div>
-            </div>
-
-            <div className="border-l-2 border-border pl-6">
-              <div className="flex flex-col gap-3 mb-2">
-                <div className="flex bg-black  rounded w-28 h-12 p-4 items-center justify-start">
-                  <span className="text-2xl text-white font-extrabold">
-                    SKY-8
-                  </span>
-                </div>
-                <h3 className="text-xl font-semibold">SKY-8</h3>
-              </div>
-              <p className="text-muted-foreground mb-3">
-                Bangladesh&apos;s first streetwear brand is almost here. From
-                exclusive drops to the hottest resale pieces, Sky‑8 is bringing
-                a new era of streetwear culture to the country. Stay tuned.
-              </p>
-              <div className="flex flex-wrap gap-2 mb-3">
-                <span className="text-xs bg-muted px-2 py-1 rounded">
-                  Next.js
-                </span>
-                <span className="text-xs bg-muted px-2 py-1 rounded">
-                  Laravel
-                </span>
-                <span className="text-xs bg-muted px-2 py-1 rounded">
-                  PostgreSQL
-                </span>
-              </div>
-              <div className="space-x-4">
-                <a href="#" className="text-primary hover:underline text-sm">
-                  Currently In Development
                 </a>
               </div>
             </div>
@@ -649,9 +617,10 @@ export default function Portfolio() {
           <h2 className="text-2xl font-bold mb-6">Get In Touch</h2>
           <div className="border-l-2 border-border pl-6">
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              I&apos;m always interested in new opportunities and collaborations.
-              Whether you have a project in mind, want to discuss technology, or
-              just want to connect, feel free to reach out!
+              I&apos;m always interested in new opportunities and
+              collaborations. Whether you have a project in mind, want to
+              discuss technology, or just want to connect, feel free to reach
+              out!
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
@@ -758,9 +727,9 @@ export default function Portfolio() {
             <div className="bg-muted/30 rounded-lg p-6">
               <h3 className="font-semibold mb-2">Currently Available</h3>
               <p className="text-muted-foreground">
-                I&apos;m open to full-time opportunities, freelance projects, and
-                consulting work. Let&apos;s discuss how we can work together to bring
-                your ideas to life.
+                I&apos;m open to full-time opportunities, freelance projects,
+                and consulting work. Let&apos;s discuss how we can work together
+                to bring your ideas to life.
               </p>
             </div>
           </div>
